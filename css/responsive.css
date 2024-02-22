@@ -58,11 +58,22 @@ padding: 7px 15px;
          margin-bottom: 30px;
          margin-top: 30px;
     }
+
      .gallery-box ul li{
          width: 33.33%;
     }
      .top-header{
          position: relative;
+    }
+    .loan{
+       background: #ff880e;
+    width: 180px;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 75px;
+    color: #fff;
+    font-weight: 300;
     }
      .lbox-details{
          display: block;
@@ -282,8 +293,18 @@ padding: 7px 15px;
        float: left;
        width: 100%;
     }
+    .ulll{
+     display: none;
+    }
+    .slide_text{
+        font-size: 5px;
+        display: contents;
+    }
     .top-header .navbar .menu_section {
         width: 100%;
+    }
+    .pogoSlider-nav{
+        display: none;
     }
     .header_bottom::after,.menu_orange_section::after {
         display: none;
@@ -291,6 +312,7 @@ padding: 7px 15px;
     .logo_section {
         width: 100%;
         text-align: center;
+        padding-left: 40%;
     }
     .navbar-brand{
          margin-left: 10px;

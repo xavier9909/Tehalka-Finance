@@ -890,9 +890,9 @@ a.navbar-brand {
 .inner_page_banner {
     float: left;
     width: 100%;
-    padding-top: 60px;
-    min-height: 240px;
-    background: #111;
+    /* padding-top: 60px;
+    min-height: 240px; */
+    background: #fffefe;
 }
 
 .about-box {
@@ -1992,8 +1992,8 @@ p {
 }
 
 .layout_padding {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 0%;
+	padding-bottom: 20px;
 }
 
 .heading_main h2 {

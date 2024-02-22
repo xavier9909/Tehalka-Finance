@@ -67,10 +67,12 @@
   }
 
 body {
+
 	color: #666666;
 	font-size: 15px;
 	font-family: 'Roboto', sans-serif;
-	line-height: 1.80857;
+	/* line-height: 1.80857; */
+	
 }
 
 * {
@@ -387,8 +389,8 @@ a:hover,a:focus {
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
 
 .header_top {
-    min-height: 98px;
-    padding: 8px 0;
+    min-height: 63px;
+    padding: 0px 0;
     background: #fff;
 }
 

@@ -194,8 +194,10 @@ padding: 7px 15px;
 .site_information ul {
     float: right;
     width: 95%;
-    padding: 21px 0 0;
+    padding: 21px 0 0 ;
+    
 }
+
 .social_icon {
     margin-bottom: 30px;
 }

@@ -1827,7 +1827,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #3a1e02;
+    background: #ad5802;
     padding: 50px 0;
 }
 
@@ -2001,9 +2001,11 @@ p {
     letter-spacing: -0.5px;
     font-weight: 500;
     padding: 0;
-    margin: 0;
+    margin: 0  ;
     font-family: 'Raleway', sans-serif;
     position: relative;
+	margin-top: 20px;
+	
 }
 
 .heading_main h2::after {

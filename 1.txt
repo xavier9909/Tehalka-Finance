@@ -1,0 +1,23 @@
+sgold 
+silver 
+home property loan 
+vhcle loan
+bike elctric tempo
+nagad loan
+business loan 
+ trade loan
+personal loan 
+
+गोल्ड लोन 
+सिल्वर लोन
+प्रॉपर्टी लोन 
+बिज़नेस लोन
+नगद लोन 
+इलेक्ट्रिक व्हीकल लोन 
+टेम्पो लोन
+बाइक लोन
+ट्रेड लोन 
+पर्सनल लोन
+व्हीकल लोन 
+
+linear-gradient(to left top, rgba(78, 78, 80, 0.014), rgb(42, 42, 43)),

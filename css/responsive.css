@@ -7,6 +7,8 @@
     .top-header .navbar .navbar-collapse ul li a {
          font-size: 17px;
     }
+    .h4{font-size: 130px;padding-left: 100px; }
+
     .lbox-details h2{
          font-size: 26px;
     }
@@ -237,6 +239,14 @@ padding: 7px 15px;
 }
 /* mobile or only mobile */
  @media (max-width: 767px) {
+    .goldbox{
+        display: block;
+        display: none;
+    }
+    .start_exchange_bt{
+        width: 170px;
+        margin-top: 10%;
+    }
     .site_information {
          float: left;
          width: 100%;
@@ -299,6 +309,7 @@ padding: 7px 15px;
     .slide_text{
         font-size: 5px;
         display: contents;
+
     }
     .top-header .navbar .menu_section {
         width: 100%;
@@ -425,14 +436,17 @@ padding: 7px 15px;
     }
      .slide_text {
          margin-top: 10%;
-		 display:none;
+		 /* display:none; */
     }
      .slide_text h3 {
-         font-size: 20px;
+        padding-top: 10%;
+         font-size: 25px;
     }
      .slide_text h4 {
-         font-size: 16px;
+         font-size: 30px;
          margin: -20px 0;
+         padding-top: 8%;
+
     }
      .slide_text p {
          display: none;
@@ -448,6 +462,7 @@ padding: 7px 15px;
          font-size: 14px;
          font-weight: 300;
          margin-top: 5px;
+        
     }
      .top-header #navbar-wd {
          padding-right: 0;

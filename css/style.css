@@ -465,8 +465,9 @@ a:hover,a:focus {
 
 .header_top {
     min-height: 63px;
-    padding: 0px 0;
+    padding: 0px 0px;
     background: #fff;
+	height: 1px;
 }
 
 .site_information ul {
@@ -516,6 +517,7 @@ a.join_bt:focus {
 
 .logo_section {
     width: 33.33%;
+	margin-left: -100px;
 }
 
 .top-header .navbar {
@@ -872,11 +874,12 @@ a.navbar-brand {
 }
 
 .slide_text h4 {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
+  
+    
+    
+    
+	font-size: 130px;
+	padding-left: 100px;
 }
 
 .slide_text p {

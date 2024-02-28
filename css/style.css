@@ -2010,11 +2010,13 @@ p {
 }
 
 .text_align_left_img img {
-    float: left;
+    /* float: left; */
 }
 
 .text_align_right_img img {
-    float: right;
+    /* float: right; */
+	width: 500px;
+
 }
 
 .red_bg {

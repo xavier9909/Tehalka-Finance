@@ -2011,11 +2011,12 @@ p {
 
 .text_align_left_img img {
     /* float: left; */
+	width: 500px;
 }
 
 .text_align_right_img img {
     /* float: right; */
-	width: 500px;
+	
 
 }
 

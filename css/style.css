@@ -2015,8 +2015,8 @@ p {
 }
 
 .text_align_right_img img {
-    float: right;
-	
+    /* float: right; */
+	width: 500px;
 
 }
 

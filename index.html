@@ -48,7 +48,17 @@
     </div>
     <!-- end loader -->
     <!-- END LOADER -->
-
+    <div id="ac-wrapper" style='display:none'>
+        <div id="popup">
+            <center>
+                 <h3 style="padding-top: 20PX;" >GOLD & SILVER PRICES TODAY</h3>
+                 <h4> 1gm/gold price 000     </h4>
+                 <h4> 1gm/silver price 000     </h4>
+    
+                <input style="height: 50px ;width: 100px;border-radius: 20px;font: bold15px arial,sans-serif;background: #e0a972;" type="submit" name="submit" value="Okay" onClick="PopUp('hide')" />
+            </center>
+        </div>
+    </div>
     <!-- Start header -->
     <header class="top-header">
         <div class="header_top" >
@@ -775,6 +785,20 @@ jQuery(function ($) {
           }
         }
         </script>
+         <script>
+
+            function PopUp(hideOrshow) {
+                if(screen.width<767){
+                if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+                else document.getElementById('ac-wrapper').removeAttribute('style');}
+            }
+            window.onload = function () {
+                setTimeout(function () {
+                    PopUp('show');
+                }, 1000);
+            }
+            
+                </script>
 </body>
 
 </html>

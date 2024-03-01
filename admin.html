@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<p   id="txt" >
+
+
+
+</p>
+
+<button onclick="page()"  type="submit" name="submit" value="submit">submit</button>
+
+<textarea name="" id="text" cols="30" rows="10" oninput="page1()"   >   </textarea>
+<button  onclick="page3()"  >edit</button>
+
+
+
+
+
+</body>
+<script>
+ let tt  = document.getElementById("text").innerHTML;
+ console.log(document.getElementById("text").innerText);
+console.log(tt);
+
+function page() {
+    window.location.href = "admin2.html"
+    
+}
+function page1() {
+    // let ttt  = document.getElementById("text").value;
+    // console.log(ttt);
+   
+
+
+}
+function page3() {
+    document.getElementById("txt").innerHTML= document.getElementById("text").value
+    localStorage.setItem("text" ,document.getElementById("txt").innerHTML  )
+}
+</script>
+</html>

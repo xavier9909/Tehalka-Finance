@@ -52,8 +52,9 @@
         <div id="popup">
             <center>
                  <h3 style="padding-top: 20PX;" >GOLD & SILVER PRICES TODAY</h3>
-                 <h4> 1gm/gold price 000     </h4>
-                 <h4> 1gm/silver price 000     </h4>
+                 <h4    id="result1"> 
+                </h4>
+
     
                 <input style="height: 50px ;width: 100px;border-radius: 20px;font: bold15px arial,sans-serif;background: #e0a972;" type="submit" name="submit" value="Okay" onClick="PopUp('hide')" />
             </center>
@@ -83,11 +84,9 @@
                     </div>
                 </div>
                 <div  class="goldbox container header_top "   style=" position: relative; left: 48.5%; margin-top: 0%; z-index: 100; width: 250px;height: 120px; border-radius: 25px;background-color: #ff880e; border: 4px solid rgb(250, 249, 249);"  > <p style=" font-weight: 400; color: black; padding-left: 14%;padding-top: 7%; font-family:'Courier New', Courier, monospace; " >
-                  <strong>
+                  <strong  id="result"  >
 
-                    1 grap gold price xxxx
-                    <br>
-                     1 gram silver price
+                   
 
                   </strong>
                     
@@ -105,10 +104,12 @@
                    <nav class="navbar header-nav navbar-expand-lg"> 
                      <div class="menu_section">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                           
+                   
+                            <span></span>
                     <span></span>
                     <span></span>
-                    <span></span>
-                </button>
+                </button> 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav " >
                         <li><a class="nav-link active" href="index.html"> <strong>होम्‌</strong> ‌</a></li>
@@ -640,7 +641,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© Copyrights 2024 design by xavier9909</p>
+                    <p class="crp">© 2024 All rights reserved-TahlkaFinance Company</p>
                 </div>
             </div>
         </div>
@@ -799,6 +800,27 @@ jQuery(function ($) {
             }
             
                 </script>
+
+
+
+<script>
+    function fy() {
+    
+        const xhttp = new XMLHttpRequest()
+    
+        xhttp.onload = function(){
+       document.getElementById('result').innerHTML = this.responseText
+       document.getElementById('result1').innerHTML = this.responseText
+    
+        }
+        xhttp.open('GET', '1.txt',true)
+        xhttp.send()
+    }
+    fy()
+    
+    </script>
+    
+
 </body>
 
 </html>

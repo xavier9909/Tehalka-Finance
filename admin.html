@@ -25,6 +25,9 @@
 
 </body>
 <script>
+
+
+
  let tt  = document.getElementById("text").innerHTML;
  console.log(document.getElementById("text").innerText);
 console.log(tt);
@@ -42,7 +45,9 @@ function page1() {
 }
 function page3() {
     document.getElementById("txt").innerHTML= document.getElementById("text").value
+    alert("text has been updated")
     localStorage.setItem("text" ,document.getElementById("txt").innerHTML  )
+    localStorage.clear();
 }
 </script>
 </html>

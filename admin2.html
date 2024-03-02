@@ -12,7 +12,7 @@
 <p  id="text2"></p>
 
 
-
+<div    style="font-family: 'Times New Roman', Times, serif;font-size: larger;" id="result"   ></div>
 
 
 
@@ -24,5 +24,22 @@
 
   document.getElementById("text2").innerText = ttt
   console.log(ttt);
+  localStorage.setItem("ty",document.getElementById(text2).innerHTML)
+</script>
+<script>
+function fy() {
+
+    const xhttp = new XMLHttpRequest()
+
+    xhttp.onload = function(){
+   document.getElementById('result').innerHTML = this.responseText
+
+
+    }
+    xhttp.open('GET', '1.txt',true)
+    xhttp.send()
+}
+fy()
+
 </script>
 </html>

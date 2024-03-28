@@ -48,15 +48,15 @@
     </div>
     <!-- end loader -->
     <!-- END LOADER -->
-    <div id="ac-wrapper" style='display:none'>
-        <div id="popup">
-            <center>
-                 <h3 style="padding-top: 20PX;" >GOLD & SILVER PRICES TODAY</h3>
-                 <h4    id="result1"> 
-                </h4>
+    <div id="ac-wrapper"  >
+        <div id="popup"  style="display: none;"  >
+            <center  style="padding-top: 1.5px;">
+                
+                 <h6 style="margin-top: 6px; font-weight: 700;"   id="result1"> 
+                </h6>
 
     
-                <input style="height: 50px ;width: 100px;border-radius: 20px;font: bold15px arial,sans-serif;background: #e0a972;" type="submit" name="submit" value="Okay" onClick="PopUp('hide')" />
+                
             </center>
         </div>
     </div>
@@ -791,17 +791,17 @@ jQuery(function ($) {
          <script>
    
   
-            function PopUp(hideOrshow) {
-                if(screen.width<767){
+            // function PopUp(hideOrshow) {
+            if(screen.width<767){
 
-                if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
-                else document.getElementById('ac-wrapper').removeAttribute('style');}
-            }
-            window.onload = function () {
-                setTimeout(function () {
-                    PopUp('show');
-                }, 2000);
-            }
+            //  document.getElementById('popup').style.display = "none";
+           document.getElementById('popup').removeAttribute('style');}
+            //  }
+            // window.onload = function () {
+            //     setTimeout(function () {
+            //         PopUp('show');
+            //     }, 2000);
+            // }
             
                 </script>
 

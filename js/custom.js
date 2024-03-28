@@ -80,7 +80,8 @@
 	/* ..............................................
     Scroll To Top
     ................................................. */
-	
+	if(screen.width<767){document.getElementById('wpcll').style.display = "contents"}
+	if(screen.width>767){document.getElementById('wpcll').style.display = "none"}
 	$(document).ready(function () {
 
 		$(window).scroll(function () {

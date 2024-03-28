@@ -244,6 +244,8 @@ padding: 7px 15px;
         display: block;
         display: none;
     }
+    
+
     .start_exchange_bt{
         width: 170px;
         margin-top: 10%;
@@ -325,7 +327,7 @@ padding: 7px 15px;
     .logo_section {
         width: 100%;
         text-align: center;
-        padding-left: 40%;
+        /* padding-left: 40%; */
     }
     .navbar-brand{
          margin-left: 10px;

@@ -1,6 +1,9 @@
 (function($) {
     "use strict";
-	
+	 if(screen.width<767){
+
+	// 	//  document.getElementById('popup').style.display = "none";
+	   document.getElementById('popup').removeAttribute('style');}
 	/* ..............................................
 	Loader 
     ................................................. */

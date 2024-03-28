@@ -792,10 +792,7 @@ jQuery(function ($) {
    
   
             // function PopUp(hideOrshow) {
-            if(screen.width<767){
-
-            //  document.getElementById('popup').style.display = "none";
-           document.getElementById('popup').removeAttribute('style');}
+           
             //  }
             // window.onload = function () {
             //     setTimeout(function () {
@@ -817,7 +814,7 @@ jQuery(function ($) {
        document.getElementById('result1').innerHTML = this.responseText
     
         }
-        xhttp.open('GET', '1.txt',true)
+        xhttp.open('GET', 'goldprice.txt',true)
         xhttp.send()
     }
     fy()

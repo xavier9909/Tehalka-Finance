@@ -1,9 +1,6 @@
 (function($) {
     "use strict";
-	 if(screen.width<767){
-
-	// 	//  document.getElementById('popup').style.display = "none";
-	   document.getElementById('popup').removeAttribute('style');}
+	 
 	/* ..............................................
 	Loader 
     ................................................. */
@@ -13,7 +10,20 @@
 		$('#preloader').delay(550).fadeOut('slow'); 
 		$('body').delay(450).css({'overflow':'visible'});
 	});
-    	
+      if(screen.width<767){
+		// setTimeout(() => {
+		// 	console.log("Delayed for 1 second.");
+		//   },2000);
+		//   setInterval(function () {document.getElementById('preloader').removeAttribute('style');}, 3000);
+		  
+		document.getElementById('preloader').style.display="none"
+		document.getElementById('popup').removeAttribute('style');
+	
+	  
+	
+	
+	
+	}	else {}
 	/* ..............................................
     Navbar Bar
     ................................................. */
